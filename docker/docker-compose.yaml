@@ -169,6 +169,7 @@ services:
       SSRF_PROXY_HTTPS_URL: 'http://ssrf_proxy:3128'
       # Indexing configuration
       INDEXING_MAX_SEGMENTATION_TOKENS_LENGTH: 1000
+      UPLOAD_FILE_SIZE_LIMIT: 150
     depends_on:
       - db
       - redis
